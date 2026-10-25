@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UAE Corporate Tax Guide | Rates, the AED 375,000 Threshold and Small Business Relief</title>
+<meta name="description" content="How UAE corporate tax works for business owners: the 0 percent band on the first AED 375,000 of taxable income, the 9 percent rate above it, Small Business Relief for revenue up to AED 3 million, filing deadlines and worked examples.">
+<link rel="canonical" href="https://uaecalculator.github.io/corporate-tax-guide/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UAE Corporate Tax Guide | Rates, the AED 375,000 Threshold and Small Business Relief">
+<meta property="og:description" content="How UAE corporate tax works for business owners: the 0 percent band on the first AED 375,000 of taxable income, the 9 percent rate above it, Small Business Relief for revenue up to AED 3 million, filing deadlines and worked examples.">
+<meta property="og:url" content="https://uaecalculator.github.io/corporate-tax-guide/">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --green:#0b6b3a;
+    --green-dark:#084f2b;
+    --navy:#12355b;
+    --gold:#c9a227;
+    --ink:#1d2733;
+    --muted:#5a6a7a;
+    --bg:#f6f8f6;
+    --card:#ffffff;
+    --line:#dde5dd;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.65;
+    font-size:17px;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:24px 18px 48px;}
+  header.top{
+    background:linear-gradient(135deg,var(--green-dark),var(--green));
+    color:#fff;
+    border-radius:14px;
+    padding:30px 28px 24px;
+    margin-bottom:26px;
+  }
+  header.top .brand{font-weight:700;letter-spacing:.4px;font-size:14px;text-transform:uppercase;color:#ffe9a8;}
+  header.top h1{margin:10px 0 10px;font-size:30px;line-height:1.25;}
+  header.top p{margin:0;color:#e8f3ec;font-size:16px;}
+  h2{color:var(--navy);font-size:24px;line-height:1.3;margin:36px 0 12px;padding-top:10px;border-top:3px solid var(--gold);}
+  h3{color:var(--green-dark);font-size:19px;margin:24px 0 8px;}
+  p{margin:10px 0;}
+  a{color:var(--green);font-weight:600;text-decoration:underline;}
+  a:hover{color:var(--green-dark);}
+  ul,ol{margin:10px 0 10px 22px;padding:0;}
+  li{margin:6px 0;}
+  .toc{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:5px solid var(--green);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:22px 0;
+  }
+  .toc h2{border:none;margin:0 0 8px;padding:0;font-size:19px;}
+  .toc ol{margin:6px 0 6px 20px;}
+  .note{
+    background:#eef6f0;
+    border:1px solid var(--line);
+    border-left:5px solid var(--gold);
+    border-radius:10px;
+    padding:14px 18px;
+    margin:18px 0;
+  }
+  .note strong{color:var(--green-dark);}
+  table{border-collapse:collapse;width:100%;margin:16px 0;font-size:16px;}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;}
+  th{background:var(--navy);color:#fff;}
+  tr:nth-child(even) td{background:#f2f6f2;}
+  .calc{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:22px;
+    margin:22px 0;
+    box-shadow:0 2px 10px rgba(18,53,91,.06);
+  }
+  .calc h2{border:none;padding:0;margin:0 0 6px;}
+  .faq-item{margin:16px 0;}
+  .faq-item h3{margin-bottom:4px;}
+  footer{
+    margin-top:44px;
+    border-top:3px solid var(--gold);
+    padding-top:18px;
+    color:var(--muted);
+    font-size:15px;
+  }
+  @media (max-width:600px){
+    body{font-size:16px;}
+    header.top h1{font-size:25px;}
+    h2{font-size:21px;}
+    .wrap{padding:16px 12px 40px;}
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the corporate tax rate in the UAE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Corporate tax is charged at 0 percent on taxable income up to AED 375,000 and 9 percent on the amount above that threshold. The 9 percent rate applies only to the slice of income over AED 375,000, not to the whole amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much tax does a business with taxable income of AED 1,000,000 pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The first AED 375,000 is taxed at 0 percent. The remaining AED 625,000 is taxed at 9 percent, which gives AED 56,250. The effective rate on the full AED 1,000,000 is therefore 5.625 percent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Small Business Relief?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small Business Relief lets an eligible business with revenue of AED 3 million or less elect to be treated as having no taxable income for a tax period, so no corporate tax is due for that period. The relief has been extended to tax periods ending on or before 31 December 2029 under Ministerial Decision No. 131 of 2026, and the election is made through EmaraTax when the return is filed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Small Business Relief applied automatically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The business has to elect the relief through EmaraTax as part of its corporate tax return for that period. A business that qualifies but does not elect is taxed under the normal rules for that period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between revenue and taxable income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Revenue is the total income the business brings in. Taxable income is what remains after deductible business expenses and the adjustments the corporate tax law requires. The 0 percent and 9 percent bands apply to taxable income, while the AED 3 million test for Small Business Relief is measured on revenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must the corporate tax return be filed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The return is due within nine months after the end of the financial year. A business with a financial year ending on 31 December 2026 must file by 30 September 2027. Any tax due is paid by the same deadline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the penalty for registering late for corporate tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An administrative penalty of AED 10,000 applies for late registration under Cabinet Decision No. 75 of 2023. Registering through EmaraTax as soon as the business starts keeps that penalty out of the picture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do free zone companies pay corporate tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A free zone company that meets the conditions of a Qualifying Free Zone Person pays 0 percent on its qualifying income. Income that does not qualify is taxed at the standard rates, and free zone companies still have to register, keep audited financial statements and file returns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a business carry losses forward after electing Small Business Relief?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A period covered by a Small Business Relief election is treated as having no taxable income, and losses arising in that period cannot be carried forward into later periods. A business expecting a loss year followed by a strong profit year should compare both routes before electing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the UAE tax salary or personal income?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The UAE does not charge personal income tax, and salaries are outside corporate tax. Corporate tax applies to the profits of businesses and commercial activities, not to wages paid to employees."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="brand">UAE Corporate Tax Guide</div>
+  <h1>UAE Corporate Tax Guide: Rates, the AED 375,000 Threshold and Small Business Relief</h1>
+  <p>Plain-language explanations of how corporate tax is worked out for businesses in the United Arab Emirates, with the rates, the relief for smaller businesses and examples you can check by hand.</p>
+</header>
+
+<p>Corporate tax is still new in the UAE, and most questions from business owners come down to a few figures. How much of the profit is actually taxed? Where does the AED 375,000 figure fit? Does a small business qualify for the relief it has heard about, and what does that relief really give up? And when does the first return have to be filed?</p>
+
+<p>The <a href="https://uaecalculators.ae/tax-calculators/">UAE Tax guides</a> on the main site answer each of these questions with a dedicated tool. This page explains the thinking behind the numbers: the two tax bands, the difference between revenue and taxable income, how Small Business Relief works and where owners most often go wrong. Read the section that matches your question, then run your own figures through the matching tool.</p>
+
+<div class="note"><strong>Good to know:</strong> every figure on this page follows the standard rules in Federal Decree-Law No. 47 of 2022 and the decisions that sit under it. Your own bill depends on your accounts, the elections you make and whether your business sits in a free zone, so treat these examples as the method rather than a final assessment.</div>
+
+<nav class="toc">
+  <h2>On this page</h2>
+  <ol>
+    <li><a href="#cover">What this corporate tax guide covers</a></li>
+    <li><a href="#try">Work out your corporate tax</a></li>
+    <li><a href="#rates">How UAE corporate tax is charged</a></li>
+    <li><a href="#threshold">How the AED 375,000 threshold works</a></li>
+    <li><a href="#income">What counts as taxable income</a></li>
+    <li><a href="#relief">What Small Business Relief is</a></li>
+    <li><a href="#elect">Whether a small business should elect the relief</a></li>
+    <li><a href="#filing">How registration and filing work</a></li>
+    <li><a href="#freezone">How free zone companies are taxed</a></li>
+    <li><a href="#mistakes">Common corporate tax mistakes</a></li>
+    <li><a href="#faq">Frequently asked questions</a></li>
+  </ol>
+</nav>
+
+<h2 id="cover">What Does This Corporate Tax Guide Cover?</h2>
+
+<p>Five topics make up the corporate tax picture for a typical UAE business, from the headline rate down to the deadline that catches owners out.</p>
+
+<ul>
+  <li><strong>Rates guide:</strong> the two bands, 0 percent and 9 percent, and how they stack on the same profit.</li>
+  <li><strong>Threshold guide:</strong> how the first AED 375,000 of taxable income stays at 0 percent and only the slice above it is taxed.</li>
+  <li><strong>Small Business Relief guide:</strong> who can elect it, what it does to the tax bill and what it costs in return.</li>
+  <li><strong>Registration and filing guide:</strong> EmaraTax registration, the nine-month filing deadline and the late registration penalty.</li>
+  <li><strong>Free zone guide:</strong> how the 0 percent rate for qualifying free zone income differs from the mainland rules.</li>
+</ul>
+
+<p>Owners use this guide to sanity-check a bill before an accountant prepares the return. Finance staff use it to forecast the tax line in a budget. Founders use it to decide whether an election is worth making while the business is still small. In each case the value comes from understanding the rule first and the number second, which is why every section below shows its working.</p>
+
+<div class="calc" id="try" style="text-align:center;">
+  <h2>Work Out Your Corporate Tax</h2>
+  <p>Run your own taxable income figure through the free tool on the main site:</p>
+  <p style="margin:18px 0 8px;"><a href="https://uaecalculators.ae/corporate-tax-calculator/" style="display:inline-block;background:#0b6b3a;color:#ffffff;font-weight:700;padding:14px 28px;border-radius:8px;font-size:18px;text-decoration:none;">Work Out Your Corporate Tax</a></p>
+</div>
+
+<h2 id="rates">How Is UAE Corporate Tax Charged?</h2>
+
+<p>Corporate tax in the UAE is set by Federal Decree-Law No. 47 of 2022 and applies to financial years starting on or after 1 June 2023. It is a tax on business profit, not on turnover and not on salaries. The structure has just two bands, and both bands apply to the same business in the same year:</p>
+
+<table>
+  <tr><th>Slice of taxable income</th><th>Rate</th></tr>
+  <tr><td>First AED 375,000</td><td>0 percent</td></tr>
+  <tr><td>Amount above AED 375,000</td><td>9 percent</td></tr>
+</table>
+
+<p>The bands work like steps, not like a switch. Every taxable business gets the first AED 375,000 of taxable income at 0 percent, whether it is a one-person consultancy or a company earning millions. The 9 percent rate then applies only to the income sitting above the threshold. A business does not lose the 0 percent band by growing past it.</p>
+
+<h3>Who does corporate tax apply to?</h3>
+
+<p>The tax reaches companies incorporated in the UAE, foreign companies managed and controlled from the UAE, and individuals who run a business or commercial activity here. Free zone companies are inside the system too; they register and file like everyone else, and the ones that meet the qualifying conditions keep a 0 percent rate on their qualifying income. Branches of foreign businesses are taxed on the income attributed to the UAE branch. What the tax does not touch is personal income: salaries, personal bank interest and private investment returns held outside a business sit outside its scope.</p>
+
+<h3>Why does the two-band design matter?</h3>
+
+<p>Because the 0 percent band is generous relative to the size of most businesses, the average rate a company actually pays is well below the 9 percent headline. A business with taxable income of AED 500,000 pays AED 11,250, an effective rate of 2.25 percent. The effective rate climbs as income grows and moves closer to 9 percent, but it never quite reaches it, because the first AED 375,000 is always free of tax. When you compare the UAE with other jurisdictions, compare effective rates on the same profit, not the headline rate alone.</p>
+
+<h2 id="threshold">How Does the AED 375,000 Threshold Work?</h2>
+
+<p>The threshold is the width of the 0 percent band. Working a bill out by hand takes three steps:</p>
+
+<ol>
+  <li><strong>Start with taxable income</strong> for the tax period, after deductible expenses and adjustments.</li>
+  <li><strong>Subtract AED 375,000.</strong> If the result is zero or less, there is no tax to pay.</li>
+  <li><strong>Charge 9 percent on what remains.</strong> That figure is the corporate tax for the period.</li>
+</ol>
+
+<h3>What do the bands produce at different profit levels?</h3>
+
+<table>
+  <tr><th>Taxable income</th><th>Amount above AED 375,000</th><th>Tax at 9 percent</th><th>Effective rate</th></tr>
+  <tr><td>AED 300,000</td><td>AED 0</td><td>AED 0</td><td>0 percent</td></tr>
+  <tr><td>AED 375,000</td><td>AED 0</td><td>AED 0</td><td>0 percent</td></tr>
+  <tr><td>AED 500,000</td><td>AED 125,000</td><td>AED 11,250</td><td>2.25 percent</td></tr>
+  <tr><td>AED 750,000</td><td>AED 375,000</td><td>AED 33,750</td><td>4.5 percent</td></tr>
+  <tr><td>AED 1,000,000</td><td>AED 625,000</td><td>AED 56,250</td><td>5.625 percent</td></tr>
+  <tr><td>AED 2,000,000</td><td>AED 1,625,000</td><td>AED 146,250</td><td>7.31 percent</td></tr>
+</table>
+
+<h3>A worked example on AED 1,000,000</h3>
+
+<p>Take a trading company with taxable income of AED 1,000,000 for the year. The first AED 375,000 is taxed at 0 percent, so it contributes nothing. That leaves AED 625,000 above the threshold. Nine percent of AED 625,000 is AED 56,250, and that is the whole bill. Spread across the full profit, the company has paid 5.625 percent, not 9 percent. The difference between the right method and the wrong one is large: charging 9 percent on the full AED 1,000,000 would give AED 90,000, which overstates the bill by AED 33,750.</p>
+
+<p>The same method at a smaller size: taxable income of AED 500,000 leaves AED 125,000 above the threshold, and 9 percent of AED 125,000 is AED 11,250. At AED 300,000 of taxable income, nothing sits above the threshold at all, so the bill is zero even though the business is fully inside the tax system and still files a return. To run your own profit figure through the same three steps, <a href="https://uaecalculators.ae/corporate-tax-calculator/">work out your corporate tax</a> with the figure from your draft accounts.</p>
+
+<div class="note"><strong>Tip:</strong> the threshold is per business and per tax period, and it is not shared between companies. Two companies under the same owner each get their own 0 percent band on their own taxable income, although grouping and anti-avoidance rules shape how groups are treated, so take advice before restructuring around it.</div>
+
+<h2 id="income">What Counts as Taxable Income?</h2>
+
+<p>Most confusion around corporate tax comes from two terms that sound alike. <strong>Revenue</strong> is the total income the business brings in: sales, fees and other income before costs. <strong>Taxable income</strong> is what remains after deductible expenses and the adjustments the law requires. The tax bands are charged on taxable income. The Small Business Relief test, covered below, is measured on revenue. Mixing the two up produces most of the wrong estimates in circulation.</p>
+
+<h3>How is taxable income built up?</h3>
+
+<p>The starting point is the accounting profit in the financial statements. From there, the law adjusts the figure. Expenses incurred wholly and exclusively for the business are generally deductible: rent, salaries, cost of goods, licence fees, utilities and professional fees. Some items are pushed back. Fines and penalties are not deductible. Personal spending routed through the company is not deductible. Entertainment costs are only partly deductible, at 50 percent. Interest costs have their own limitation rules once they grow large relative to earnings. The adjusted result is the taxable income that the two bands are applied to.</p>
+
+<h3>Why does the distinction decide real bills?</h3>
+
+<p>Consider two businesses that each bring in AED 2,800,000 of revenue. The first runs on thin margins and ends with taxable income of AED 200,000; its bill is zero, because nothing passes the threshold. The second runs lean, ends with taxable income of AED 600,000 and owes 9 percent of AED 225,000, which is AED 20,250. Same revenue, very different tax. This is also why the relief discussed next uses revenue as its gate: it is a simpler figure to test, and it targets genuinely small operations rather than small profits. For the full picture of how the bands, exemptions and reliefs fit together, the guide to <a href="https://uaecalculators.ae/uae-corporate-tax-rates-explained/">UAE corporate tax rates explained</a> walks through the rate structure in more depth.</p>
+
+<h2 id="relief">What Is Small Business Relief?</h2>
+
+<p>Small Business Relief, set out in Article 21 of the corporate tax law, is an election for smaller businesses. A business that qualifies and elects the relief is treated as having no taxable income for that tax period. No taxable income means no tax for the period, whatever the profit would otherwise have been, and the AED 375,000 threshold never comes into play.</p>
+
+<h3>Who can elect Small Business Relief?</h3>
+
+<ul>
+  <li>The business must be a resident person for UAE corporate tax purposes.</li>
+  <li>Revenue must be AED 3 million or less in the tax period, and the test also looks back at earlier tax periods.</li>
+  <li>The election is made through EmaraTax as part of the corporate tax return for that period. It is never applied automatically.</li>
+  <li>Members of large multinational groups are outside the relief, and a Qualifying Free Zone Person uses the free zone 0 percent regime instead.</li>
+  <li>The relief is available for tax periods ending on or before 31 December 2029, following the extension in Ministerial Decision No. 131 of 2026.</li>
+</ul>
+
+<h3>What does the relief save in practice?</h3>
+
+<table>
+  <tr><th>Business</th><th>Revenue</th><th>Taxable income</th><th>Tax without the election</th><th>Tax with the election</th></tr>
+  <tr><td>Business A</td><td>AED 2,400,000</td><td>AED 400,000</td><td>AED 2,250</td><td>AED 0</td></tr>
+  <tr><td>Business B</td><td>AED 2,800,000</td><td>AED 600,000</td><td>AED 20,250</td><td>AED 0</td></tr>
+</table>
+
+<p>Business A sits just over the threshold: without the election it owes 9 percent of AED 25,000, which is AED 2,250. Electing the relief reduces that to zero. Business B has a healthier margin on similar revenue; without the election it owes 9 percent of AED 225,000, which is AED 20,250, and the election removes the whole amount. The pattern to notice is that the relief is worth most to high-margin small businesses, because it shelters the entire taxable income rather than trimming the top slice.</p>
+
+<p>The gate is revenue, and it is firm. A business with revenue of AED 3,400,000 cannot elect the relief at all, even if heavy costs leave it with taxable income of only AED 100,000 and a bill of zero under the normal bands anyway. Growth through the AED 3 million line ends the option, which is why fast-growing businesses should plan for the first year in which they will be taxed in full.</p>
+
+<h2 id="elect">Should a Small Business Elect Small Business Relief?</h2>
+
+<p>Electing looks like free money, and for a steady, profitable small business it usually is. But the relief has a price that only shows up in a particular pattern: a loss year followed by a profit year.</p>
+
+<h3>What does the election give up?</h3>
+
+<p>A period covered by the election is treated as having no taxable income. That also means a loss arising in that period is not recorded as a tax loss, and tax losses cannot be carried forward out of a relief period into later years. Unused interest capacity is treated the same way. The business still files a return for the period and still keeps its records; the election changes the tax outcome, not the compliance duties.</p>
+
+<h3>A worked example of the trade-off</h3>
+
+<p>Take a business with revenue under AED 3 million that records a loss of AED 150,000 in its first year and taxable income of AED 900,000 in its second. If it elected Small Business Relief in the loss year, the loss disappears with the period. The second year is then taxed on the full figure: 9 percent of AED 525,000 (the amount above the threshold) is AED 47,250. If it had not elected in the loss year, the AED 150,000 loss carries forward and reduces the second year to AED 750,000 of taxable income, giving 9 percent of AED 375,000, which is AED 33,750. Electing in the loss year saved nothing at the time, because a loss year owes no tax either way, and it cost AED 13,500 in the following year.</p>
+
+<div class="note"><strong>Rule of thumb:</strong> elect in profitable years while revenue stays within the limit. Think carefully before electing in a year you expect to close at a loss, because the loss is usually worth more carried forward than the relief is worth in a year with no bill.</div>
+
+<h2 id="filing">How Do Registration and Filing Work?</h2>
+
+<p>Registration runs through EmaraTax, the Federal Tax Authority portal. Businesses register for corporate tax there, receive a tax registration number and file and pay through the same account. Registration is not optional for businesses inside the system, and leaving it late carries an administrative penalty of AED 10,000 under Cabinet Decision No. 75 of 2023. That penalty is larger than the entire first tax bill of many small companies, which makes early registration the cheapest decision in this whole guide.</p>
+
+<h3>When is the return due?</h3>
+
+<p>The corporate tax return is due within nine months after the end of the financial year, and any tax is paid by the same date. The tax period is simply the financial year the business already uses. Two examples show the count:</p>
+
+<table>
+  <tr><th>Financial year ends</th><th>Return and payment due</th></tr>
+  <tr><td>31 December 2026</td><td>30 September 2027</td></tr>
+  <tr><td>31 March 2026</td><td>31 December 2026</td></tr>
+</table>
+
+<p>The nine-month window is generous compared with the monthly rhythm of VAT, but it encourages drift. Accounts that are not closed on time squeeze the return into the final weeks, and the election decisions described above, such as Small Business Relief, have to be made inside that same return. Records supporting the return must be kept for seven years after the end of the tax period they relate to. Owners also need to know <a href="https://uaecalculators.ae/who-is-exempt-from-corporate-tax-uae/">who is exempt from corporate tax in the UAE</a>, because exempt persons follow different registration and filing duties from taxable ones.</p>
+
+<h2 id="freezone">How Are Free Zone Companies Taxed?</h2>
+
+<p>Free zone companies sit inside corporate tax, not outside it. They register, file returns and keep audited financial statements. The benefit is in the rate: a company that meets the conditions of a Qualifying Free Zone Person pays 0 percent on its qualifying income, broadly income earned from activities the free zone regime recognises, including much trade with other free zone businesses and overseas customers.</p>
+
+<p>Income that does not qualify falls back to the standard treatment, with the AED 375,000 band at 0 percent and 9 percent above it. Mainland-facing income is the area to watch: selling into the UAE mainland outside the recognised activities can move income out of the qualifying category, and a de minimis rule tolerates only a small amount of non-qualifying revenue before the status itself is at risk for several years. Because the status is tested every period, free zone companies should confirm their position annually rather than assuming the 0 percent rate applies by default. Small Business Relief is a separate route aimed at resident mainland businesses; a Qualifying Free Zone Person does not use it.</p>
+
+<h2 id="mistakes">What Mistakes Do Business Owners Make With Corporate Tax?</h2>
+
+<ol>
+  <li><strong>Charging 9 percent on the whole profit.</strong> On taxable income of AED 500,000 the wrong method gives AED 45,000. The right bill is AED 11,250, because the first AED 375,000 is taxed at 0 percent.</li>
+  <li><strong>Mixing up revenue and taxable income.</strong> The bands apply to taxable income after expenses. The AED 3 million Small Business Relief test applies to revenue. Using one figure for both jobs distorts every estimate.</li>
+  <li><strong>Assuming Small Business Relief is automatic.</strong> It is an election made in the return through EmaraTax, period by period. A business that qualifies but never elects is taxed under the normal rules.</li>
+  <li><strong>Electing the relief in a loss year without thinking ahead.</strong> A loss in a relief period cannot be carried forward. In the worked example above, that single decision cost AED 13,500 the following year.</li>
+  <li><strong>Registering late.</strong> The late registration penalty is AED 10,000, which is more than the total tax many small businesses owe in their first profitable year.</li>
+  <li><strong>Missing the nine-month deadline.</strong> A financial year ending 31 December 2026 means a return due by 30 September 2027. Diarise the date when the year closes, not when the reminder arrives.</li>
+</ol>
+
+<h2>Where to Read Next</h2>
+
+<p>The companion guide to <a href="https://uae-tax-calculators.vercel.app/">UAE VAT and customs duties</a> covers the other taxes a trading business meets day to day, and the <a href="https://uaecalculators-aec5fe.gitlab.io/">UAE loan and savings guide</a> looks at borrowing costs and debt burden for the same businesses. For the full set of working tools behind these explanations, start from the <a href="https://uaecalculators.ae/tax-calculators/">UAE Tax guides</a> hub or visit <a href="https://uaecalculators.ae/">uaecalculators.ae</a> directly.</p>
+
+<h2>Short Answers</h2>
+
+<div class="faq-item">
+  <h3>Is the first AED 375,000 of profit tax-free?</h3>
+  <p>Yes, where the profit is taxable income. The 0 percent band covers the first AED 375,000 of taxable income for every taxable business, every period.</p>
+</div>
+<div class="faq-item">
+  <h3>Is the 9 percent rate charged on all income?</h3>
+  <p>No. It is charged only on the amount of taxable income above AED 375,000.</p>
+</div>
+<div class="faq-item">
+  <h3>What revenue qualifies for Small Business Relief?</h3>
+  <p>Revenue of AED 3 million or less in the tax period, with the election made through EmaraTax in the return for that period.</p>
+</div>
+<div class="faq-item">
+  <h3>When did UAE corporate tax start?</h3>
+  <p>It applies to financial years starting on or after 1 June 2023.</p>
+</div>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <h3>What is the corporate tax rate in the UAE?</h3>
+  <p>Corporate tax is charged at 0 percent on taxable income up to AED 375,000 and 9 percent on the amount above that threshold. The 9 percent rate applies only to the slice of income over AED 375,000, not to the whole amount.</p>
+</div>
+<div class="faq-item">
+  <h3>How much tax does a business with taxable income of AED 1,000,000 pay?</h3>
+  <p>The first AED 375,000 is taxed at 0 percent. The remaining AED 625,000 is taxed at 9 percent, which gives AED 56,250. The effective rate on the full AED 1,000,000 is therefore 5.625 percent.</p>
+</div>
+<div class="faq-item">
+  <h3>What is Small Business Relief?</h3>
+  <p>Small Business Relief lets an eligible business with revenue of AED 3 million or less elect to be treated as having no taxable income for a tax period, so no corporate tax is due for that period. The relief has been extended to tax periods ending on or before 31 December 2029 under Ministerial Decision No. 131 of 2026, and the election is made through EmaraTax when the return is filed.</p>
+</div>
+<div class="faq-item">
+  <h3>Is Small Business Relief applied automatically?</h3>
+  <p>No. The business has to elect the relief through EmaraTax as part of its corporate tax return for that period. A business that qualifies but does not elect is taxed under the normal rules for that period.</p>
+</div>
+<div class="faq-item">
+  <h3>What is the difference between revenue and taxable income?</h3>
+  <p>Revenue is the total income the business brings in. Taxable income is what remains after deductible business expenses and the adjustments the corporate tax law requires. The 0 percent and 9 percent bands apply to taxable income, while the AED 3 million test for Small Business Relief is measured on revenue.</p>
+</div>
+<div class="faq-item">
+  <h3>When must the corporate tax return be filed?</h3>
+  <p>The return is due within nine months after the end of the financial year. A business with a financial year ending on 31 December 2026 must file by 30 September 2027. Any tax due is paid by the same deadline.</p>
+</div>
+<div class="faq-item">
+  <h3>What is the penalty for registering late for corporate tax?</h3>
+  <p>An administrative penalty of AED 10,000 applies for late registration under Cabinet Decision No. 75 of 2023. Registering through EmaraTax as soon as the business starts keeps that penalty out of the picture.</p>
+</div>
+<div class="faq-item">
+  <h3>Do free zone companies pay corporate tax?</h3>
+  <p>A free zone company that meets the conditions of a Qualifying Free Zone Person pays 0 percent on its qualifying income. Income that does not qualify is taxed at the standard rates, and free zone companies still have to register, keep audited financial statements and file returns.</p>
+</div>
+<div class="faq-item">
+  <h3>Can a business carry losses forward after electing Small Business Relief?</h3>
+  <p>No. A period covered by a Small Business Relief election is treated as having no taxable income, and losses arising in that period cannot be carried forward into later periods. A business expecting a loss year followed by a strong profit year should compare both routes before electing.</p>
+</div>
+<div class="faq-item">
+  <h3>Does the UAE tax salary or personal income?</h3>
+  <p>No. The UAE does not charge personal income tax, and salaries are outside corporate tax. Corporate tax applies to the profits of businesses and commercial activities, not to wages paid to employees.</p>
+</div>
+
+<h2>Sources and Official References</h2>
+
+<p>The rules summarised on this page come from Federal Decree-Law No. 47 of 2022 on the taxation of corporations and businesses, Cabinet Decision No. 75 of 2023 on late registration penalties and Ministerial Decision No. 131 of 2026 on the extension of Small Business Relief. For the official text, registration and filing, see the <a href="https://tax.gov.ae/">Federal Tax Authority (tax.gov.ae)</a> and the <a href="https://u.ae/">UAE Government portal (u.ae)</a>. For the full set of working tools behind these explanations, visit <a href="https://uaecalculators.ae/">uaecalculators.ae</a>.</p>
+
+<footer>
+  <p><strong>UAE Corporate Tax Guide</strong> - guidance on corporate tax rates, the AED 375,000 threshold, Small Business Relief, registration and filing for business owners in the United Arab Emirates. All figures are worked examples based on the standard rules; confirm your own position against your accounts and official guidance.</p>
+  <p>Updated October 2026.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
